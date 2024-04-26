@@ -1,0 +1,11 @@
+/*h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(0, 0, 0);
+    font-size: 4rem;
+    background: linear-gradient(to right, rgb(1, 120, 1), rgb(237, 237, 237), rgb(226, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

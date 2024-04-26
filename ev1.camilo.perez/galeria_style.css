@@ -1,0 +1,96 @@
+article { 
+    margin: auto;
+    width: 85%;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Dosis', sans-serif;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 100vh;
+    
+}
+
+.foto{
+    width: 350px;
+    height: 350px;
+    display: grid;
+    grid-template-rows: minmax(100%, 1fr);
+    grid-template-areas: "cards";
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.foto img{
+    grid-area: cards;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto figcaption{
+    grid-area: cards;
+    background: #000000e0;
+    transform: translateY(calc(100% - 4rem));
+    transition: transform 600ms;
+    padding: 0 20px 20px 20px;
+    /*color: #FFF;*/
+    font-weight: 400;
+}
+
+.foto h3{
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.foto p{
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.foto button{
+    float: right;
+    border: 0;
+    /*color: #fff;*/
+    background: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.foto:hover figcaption{
+    transform: none;
+}
+
+div a {
+    font-family: 'Dosis', sans-serif;
+}
+
+div a:link {
+    color: blue;
+}
+
+div a:visited {
+    color: purple;
+}
+
+div a:hover {
+    color: red;
+}
+
+div a:active {
+    color: green;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Common People</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common_style.css">
+    <link rel="stylesheet" href="contacto_style.css">
+</head>
+<body>
+    <header>
+    <h1>Contacto Common People</h1>
+    </header>
+    <p>Si necesitas contactarnos nos dudes en llenar el formulario y te responderemos a la brevedad:</p>
+    <form action="#">
+        <label for="nombre">Nombre</label>
+        <input value="" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required /><br>
+        <label for="apellidos">Apellidos</label>
+        <input value="" type="text" id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos" required /><br>
+        <label for="correo">Correo</label>
+        <input value="" type="email" id="correo" name="correo" placeholder="Indique su correo" required/><br>
+        <label for="teléfono">Teléfono</label>
+        <input value="" type="tel" id="teléfono" name="teléfono" placeholder="Indique su teléfono" required/><br>
+        <label for="tipoSolicitud">Solicitud de solicitud</label>
+        <select name="tipoSolicitud" id="tipoSolicitud">
+            <option value="consulta">Consulta</option>
+            <option value="compra">Compra</option>
+            <option value="venta">Venta</option>
+        </select><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea cols="50" rows="10" id="mensaje" name="mensaje" placeholder="ingrese comentario" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <div>
+    <h2>Información de contacto:</h2>
+        <ul>
+            <li>Telefóno: (2) 2697 2121</li>
+            <li>Correo: Contacto@commonpeople.com</li>
+            <li>Dirección: Santa Isabel 369, Providencia.</li>
+        </ul>
+    </div>
+    <footer>
+        <h3>Menú del sitio</h3>
+        <a href="inicio.html">Página principal</a>
+        <a href="galeria.html">Visitar galería</a>
+        <p>Copyright 2024©</p>  
+    </footer>     
+</body>
+</html>
